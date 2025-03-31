@@ -113,7 +113,7 @@ function InfluencersList() {
 
                 <Separator />
 
-                <ul className="grid list-disc grid-cols-1 gap-2 t-1 mt-2">
+                <ul className="grid grid-cols-1 gap-2 t-1 mt-2">
                   {selectedInfluencer?.accounts.instagram.map((acc) => (
                     <li key={acc} className="px-0 text-muted-foreground text-sm break-words">
                       @{acc}
